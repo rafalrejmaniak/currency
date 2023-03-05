@@ -46,12 +46,12 @@ btn_convert_eur = tk.Button(
 
 btn_convert_usd_pln = tk.Button(
     master=root,
-    text="USD na PLN",
+    text="PLN na USD",
     command=lambda: count_pln("USD")
 )
 btn_convert_eur_pln = tk.Button(
     master=root,
-    text="EUR na PLN",
+    text="PLN na EUR",
     command=lambda: count_pln("EUR")
 )
 
